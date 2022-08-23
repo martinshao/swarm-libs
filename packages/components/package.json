@@ -1,7 +1,7 @@
 {
   "name": "@swarm/components",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.ts",
   "module": "index.ts",
@@ -15,6 +15,6 @@
   "author": "Martin Shaw",
   "license": "ISC",
   "dependencies": {
-    "@swarm/hooks": "^1.0.0"
+    "@swarm/hooks": "^1.0.1"
   }
 }
