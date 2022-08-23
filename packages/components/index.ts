@@ -1,4 +1,4 @@
-import hookType, { hookLane, renderWithHooks, ReactCurrentDispatcher } from "@swarm/hooks";
+import hookType, { hookLane, renderWithHooks } from "@swift/hooks";
 
 const hooks = {
     name: 'hook'
@@ -12,7 +12,5 @@ const man = {
 console.info(hookType, hookLane, man)
 
 renderWithHooks()
-
-console.info(ReactCurrentDispatcher)
 
 export default hooks
