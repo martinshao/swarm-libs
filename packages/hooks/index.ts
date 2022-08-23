@@ -8,5 +8,7 @@ const hookLane = 15
 
 const renderWithHooks = () => console.info('start render with hooks...')
 
-export { hook, hooQueue, hookLane, renderWithHooks }
+const ReactCurrentDispatcher = null
+
+export { hook, hooQueue, hookLane, renderWithHooks, ReactCurrentDispatcher }
 export default hookType
