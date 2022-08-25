@@ -12,7 +12,9 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": "tests"
+      "ignoreChanges": [
+        "tests"
+      ]
     }
   }
 }
