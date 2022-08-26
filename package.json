@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
@@ -29,6 +29,8 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "lerna": "^5.4.3",
+    "msw": "^0.45.0",
+    "msw-storybook-addon": "^1.6.3",
     "postcss": "^8.4.16",
     "postcss-loader": "^7.0.1",
     "require-from-string": "^2.0.2",
@@ -43,8 +45,13 @@
     "packages/*"
   ],
   "dependencies": {
+    "@tanstack/react-query": "^4.2.1",
+    "axios": "^0.27.2",
     "classnames": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
