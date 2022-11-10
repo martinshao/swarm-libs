@@ -1,0 +1,1 @@
+export { default as PeopleSelect } from './PeopleSelect'
